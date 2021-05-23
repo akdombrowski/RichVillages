@@ -1,0 +1,6 @@
+_ReSharper*
+SuperCharger*
+v16
+obj/
+packages/
+DesignTimeBuild
