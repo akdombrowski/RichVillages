@@ -269,7 +269,8 @@
   <!-- Files & Classes -->
   <ItemGroup>
     <Compile Include="RIchVillagesSettings.cs" />
-    <Compile Include="NewBehaviourScript1.cs" />
+    <Compile Include="TownPatch.cs" />
+    <Compile Include="VillagesPatch.cs" />
     <Compile Include="SubModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="Readme.txt" />
