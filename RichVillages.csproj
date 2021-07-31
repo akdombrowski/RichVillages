@@ -264,6 +264,7 @@
     <Reference Include="MCMv4, Version=4.3.10.0, Culture=neutral, processorArchitecture=AMD64">
       <HintPath>packages\Bannerlord.MCM.4.3.10\lib\net472\MCMv4.dll</HintPath>
     </Reference>
+    <Reference Include="System" />
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
   </ItemGroup>
   <!-- Files & Classes -->
