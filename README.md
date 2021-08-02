@@ -1,18 +1,23 @@
 RichVillages
 
-This mod changes the amount of gold (denars) a village starts the day with.
+This mod changes the amount of gold (denars) villages and towns start the day with.
 
-:: REQUIREMENTS Template::
+:: REQUIREMENTS ::
 
 * MCM
 
-:: FEATURES Template::
+:: FEATURES ::
 
-* Customize amount of gold villages start the day with from 1-10M.
+* Customize amount of gold villages and towns start the day with from 1-10M denars.
 
-:: GENERAL OTHER STUFF Template::
+:: GENERAL OTHER STUFF ::
 
-* Default is 1k. Same as vanilla.
+* The default for villages is 1k. Same as vanilla.
+* The default for towns is 100k. Same as vanilla.
+
+Open source code:
+
+[Github](https://github.com/akdombrowski/RichVillages)
 
 ---
 Helpful information for modders:
