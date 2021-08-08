@@ -16,10 +16,7 @@ namespace RichVillages
 
     public virtual string FolderName => "RichVillages";
 
-    public virtual string FormatType
-    {
-      get;
-    }
+    public virtual string FormatType => "json2";
 
     public override string Id => "RichVillages V1.0.1";
 
