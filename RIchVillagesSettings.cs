@@ -13,12 +13,9 @@ namespace RichVillages
     }
 
     public override string DisplayName => "RichVillages";
-
-    public virtual string FolderName => "RichVillages";
-
-    public virtual string FormatType => "json2";
-
-    public override string Id => "RichVillages V1.0.1";
+    public override string FolderName => "RichVillages";
+    public override string FormatType => "json2";
+    public override string Id => "RichVillages";
 
     [SettingPropertyGroup("{=MCM_001_Settings_Header}General Mod Settings")]
     [SettingPropertyFloatingInteger("{=MCM_001_Settings_Name_001}Min Village Gold", 1, 10000000, "0 denars", HintText = "{=MCM_001_Settings_Info_001}Controls the min amount of gold (denars) which villages have at the start of the day. (Default = 1k)", RequireRestart = false)]
