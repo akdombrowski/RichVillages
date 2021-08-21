@@ -19,12 +19,9 @@ namespace RichVillages
 
       int maxGold = GlobalSettings<RichVillagesSettings>.Instance.MinVillageGold;
       FileLog.Log("village maxGold: " + maxGold);
-      Debug.Print("village maxGold: " + maxGold);
 
       //InformationManager.DisplayMessage(new InformationMessage("Rich Villages - " + __instance.Name + " - Current Gold: " + __instance.Gold, Color.FromUint(4282569842U)));
 
-      Debug.Print("village __instance.GetName: " + __instance.GetName());
-      Debug.Print("village __instance.Gold: " + __instance.Gold);
       FileLog.Log("village __instance.GetName: " + __instance.GetName());
       FileLog.Log("village __instance.Gold: " + __instance.Gold);
 
@@ -34,7 +31,6 @@ namespace RichVillages
       }
       __instance.ChangeGold(maxGold - __instance.Gold);
 
-      Debug.Print("village __instance.Gold: " + __instance.Gold);
       FileLog.Log("village __instance.Gold: " + __instance.Gold);
       Harmony.DEBUG = false;
     }
