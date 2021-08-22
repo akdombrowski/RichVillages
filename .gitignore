@@ -2,6 +2,7 @@ _ReSharper*
 SuperCharger*
 v16
 v17
+.vs
 obj/
 packages/
 DesignTimeBuild
