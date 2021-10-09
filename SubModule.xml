@@ -10,11 +10,11 @@
     <DependedModule Id="Bannerlord.ButterLib" />
     <DependedModule Id="Bannerlord.UIExtenderEx" />
     <DependedModule Id="Bannerlord.MBOptionScreen" />
-    <DependedModule Id="Native"  DependentVersion="e1.6.3" />
-    <DependedModule Id="SandBoxCore"  DependentVersion="e1.6.3" />
-    <DependedModule Id="Sandbox"  DependentVersion="e1.6.3" />
-    <DependedModule Id="StoryMode"  DependentVersion="e1.6.3" />
-    <DependedModule Id="CustomBattle"  DependentVersion="e1.6.3" />
+    <DependedModule Id="Native"  DependentVersion="e1.6.4" />
+    <DependedModule Id="SandBoxCore"  DependentVersion="e1.6.4" />
+    <DependedModule Id="Sandbox"  DependentVersion="e1.6.4" />
+    <DependedModule Id="StoryMode"  DependentVersion="e1.6.4" />
+    <DependedModule Id="CustomBattle"  DependentVersion="e1.6.4" />
   </DependedModules>
   <SubModules>
     <SubModule>
