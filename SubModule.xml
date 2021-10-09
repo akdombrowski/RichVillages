@@ -1,7 +1,7 @@
 ﻿<Module>
   <Name value="RichVillages" />
   <Id value="RichVillages" />
-  <Version value="v1.0.4" />
+  <Version value="v1.0.5" />
   <SingleplayerModule value="true" />
   <MultiplayerModule value="false" />
   <Official value="false" />
@@ -10,11 +10,11 @@
     <DependedModule Id="Bannerlord.ButterLib" />
     <DependedModule Id="Bannerlord.UIExtenderEx" />
     <DependedModule Id="Bannerlord.MBOptionScreen" />
-    <DependedModule Id="Native"  DependentVersion="e1.6.2" />
-    <DependedModule Id="SandBoxCore"  DependentVersion="e1.6.2" />
-    <DependedModule Id="Sandbox"  DependentVersion="e1.6.2" />
-    <DependedModule Id="StoryMode"  DependentVersion="e1.6.2" />
-    <DependedModule Id="CustomBattle"  DependentVersion="e1.6.2" />
+    <DependedModule Id="Native"  DependentVersion="e1.6.3" />
+    <DependedModule Id="SandBoxCore"  DependentVersion="e1.6.3" />
+    <DependedModule Id="Sandbox"  DependentVersion="e1.6.3" />
+    <DependedModule Id="StoryMode"  DependentVersion="e1.6.3" />
+    <DependedModule Id="CustomBattle"  DependentVersion="e1.6.3" />
   </DependedModules>
   <SubModules>
     <SubModule>
