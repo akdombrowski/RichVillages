@@ -45,8 +45,8 @@
   </PropertyGroup>
   <!-- Bannerlord Native Assemblies -->
   <ItemGroup>
-    <Reference Include="0Harmony, Version=2.1.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Lib.Harmony.2.1.1\lib\net48\0Harmony.dll</HintPath>
+    <Reference Include="0Harmony, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Lib.Harmony.2.2.0\lib\net48\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="D:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.AchievementSystem.dll">
       <HintPath>D:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.AchievementSystem.dll</HintPath>
@@ -261,8 +261,8 @@
       <HintPath>%(Identity)</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="MCMv4, Version=4.3.10.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>packages\Bannerlord.MCM.4.3.10\lib\net472\MCMv4.dll</HintPath>
+    <Reference Include="MCMv4, Version=4.3.17.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>packages\Bannerlord.MCM.4.3.17\lib\net472\MCMv4.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />

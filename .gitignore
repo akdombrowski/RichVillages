@@ -6,3 +6,4 @@ v17
 obj/
 packages/
 DesignTimeBuild
+.suo
