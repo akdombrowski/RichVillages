@@ -1,12 +1,10 @@
 ﻿using HarmonyLib;
-
-using TaleWorlds.Core;
 using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
 
 namespace RichVillages
 {
-  public class SubModule : MBSubModuleBase
+    public class SubModule : MBSubModuleBase
   {
     protected override void OnBeforeInitialModuleScreenSetAsRoot()
     {

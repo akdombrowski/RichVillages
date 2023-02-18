@@ -1,14 +1,12 @@
 ﻿using HarmonyLib;
-
-using MCM.Abstractions.Settings.Base.Global;
-
-using TaleWorlds.CampaignSystem;
+using MCM.Abstractions.Base.Global;
+using TaleWorlds.CampaignSystem.Settlements;
 using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
 
 namespace RichVillages
 {
-  [HarmonyPatch(typeof(Village))]
+    [HarmonyPatch(typeof(Village))]
   public class VillagesPatch : MBSubModuleBase
   {
     [HarmonyPatch("DailyTick")]
