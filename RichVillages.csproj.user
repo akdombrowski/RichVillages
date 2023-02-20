@@ -3,4 +3,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <StartArguments>/singleplayer _MODULES_%2aBannerlord.Harmony%2aBannerlord.ButterLib%2aBannerlord.UIExtenderEx%2aBannerlord.MBOptionScreen%2aCalradiaExpandedKingdomsLF%2aNative%2aSandBoxCore%2aCustomBattle%2aSandbox%2aStoryMode%2aCalradiaExpanded%2aCalradiaExpandedKingdoms%2azzCharacterCreation%2aOpenSourceArmory%2aBetterTime%2aPartyScreenEnhancements%2aKillBanditsRaiseRelations%2aTCB%2aThe_Ghost%2aBreakShield%2aImprovedGarrisons%2aCharacterReload%2aDistinguishedService%2aHideoutPartyUnlimited%2aLootEveryone%2aTournamentsEnhanced%2aControlYourAlliesAfterDeath%2aExcalibutterCraftingParts%2aRoyalArmouryFix%2atetsojin_equipment%2aAttributesMatter%2aWorkshopIncome%2aKaosesTweaks%2aRichVillages%2a_MODULES_</StartArguments>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartWorkingDirectory>F:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client</StartWorkingDirectory>
+    <StartArguments />
+  </PropertyGroup>
 </Project>

@@ -20,7 +20,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>D:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\RichVillages\bin\Win64_Shipping_Client</OutputPath>
+    <OutputPath>obj\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -42,6 +42,9 @@
     <StartProgram>D:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\Bannerlord.exe</StartProgram>
     <StartArguments>/singleplayer _MODULES_*Native*SandBoxCore*CustomBattle*Sandbox*StoryMode*Bannerlord.MBOptionScreen*Bannerlord.MBOptionScreen.MBO*Bannerlord.MBOptionScreen.ModLib*ModLib*zzCharacterCreation*NPCRevamp*ImprovedGarrisons*InterestingClans*PartyScreenEnhancements*TrueBrigands*TruePerks*TrueRelations*AutoTrader*BetterTime*FightingTogetherRelationship*ImprovedSmithing*KillBanditsRaiseRelations*MBFastDialogue*SmithForever*XorberaxCutThroughEveryone*XorberaxDeadlyCombat*Recruitable*zMixedGenderTroops*Aragas.SaveMissingModuleFix*BalancedArmiesofCalradia*BestModsDeadliestHorseCharge*BetterAutoCalc*BetterQuicksave*CaravansGiveTradeXp*ControlYourAlliesAfterDeath*DaytimeHideouts*EncyclopediaFix*HideoutSendTroops*IrregularsMercenaryOverhaul*ManageRemoteCompanions*NobleNobles*RealisticBattle*Rulership*TrueLimits*VsMod_NoPlayerClanPartyLimit*VsMod_NoWorkshopLimit*z0UnlimitedWanderers*zGrowUpAndWork*FixFastSwingMeleeContact*zzBannerlordTweaks*Bandit Militias*RomanFactionLite*LongPointy*CharacterReload*TCB*The_Ghost*VillageMaxGoldModifier*RichVillages*_MODULES_</StartArguments>
     <StartWorkingDirectory>D:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client</StartWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
   </PropertyGroup>
   <!-- Bannerlord Native Assemblies -->
   <ItemGroup>
@@ -99,9 +102,9 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <!-- Post-Build -->
-  <PropertyGroup>
-    <PostBuildEvent>xcopy /d /y "$(MSBuildProjectDirectory)\SubModule.xml" "D:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\RichVillages"</PostBuildEvent>
-  </PropertyGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /y "$(TargetPath)" "F:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\RichVillages\bin\Win64_Shipping_Client\"
+xcopy /y "$(ProjectDir)\SubModule.xml" "F:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\RichVillages\"</PostBuildEvent>
+  </PropertyGroup>
 </Project>
